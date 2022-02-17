@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-   public GameObject cannonball;
+    public GameObject cannonball;
     // Update is called once per frame
     void Update()
     {
