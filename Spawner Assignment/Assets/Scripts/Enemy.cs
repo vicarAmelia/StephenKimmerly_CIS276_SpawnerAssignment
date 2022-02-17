@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
    private void OnTriggerEnter(Collider other)
    {
-       if(other.gameObject.tag == "Cannonball")
+       if (other.gameObject.tag == "Cannonball")
        {
            Debug.Log("-1");
        }
