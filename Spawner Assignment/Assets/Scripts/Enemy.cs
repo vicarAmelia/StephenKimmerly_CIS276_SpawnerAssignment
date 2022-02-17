@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
    {
        if (other.gameObject.tag == "Cannonball")
        {
-           Debug.Log("-1");
+           Debug.Log("-1 damage");
        }
    }
 }
