@@ -18,5 +18,10 @@ public class ObjectPlacementManager : MonoBehaviour
             placeableObject.position = hitInfo.point + new Vector3(0, 0.5f, 0);
             placeableObject.rotation = Quaternion.FromToRotation(Vector3.up, hitInfo.normal);
         }
+
+     void Update()
+     {
+         
+     }   
     }
 }
